@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#50FFFFFF"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/notice_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 게임이 종료됩니다.\n계속하시겠습니까?"
+        android:textSize="20dp"
+        android:fontFamily="@font/font3"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/notice_ok"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:fontFamily="@font/font3"/>
+        <Button
+            android:id="@+id/notice_cancel"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:fontFamily="@font/font3"/>
+    </LinearLayout>
+
+</LinearLayout>
